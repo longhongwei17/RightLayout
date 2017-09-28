@@ -14,7 +14,7 @@
 		5414E41B1F7BFA060007A0D9 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5414E4101F7BFA060007A0D9 /* Info.plist */; };
 		5414E41C1F7BFA060007A0D9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5414E4111F7BFA060007A0D9 /* main.m */; };
 		5414E41E1F7BFA060007A0D9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5414E4161F7BFA060007A0D9 /* ViewController.m */; };
-		5414E4211F7C9EBA0007A0D9 /* RightFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 5414E4201F7C9EBA0007A0D9 /* RightFlowLayout.m */; };
+		5414E4241F7CA10B0007A0D9 /* RightLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 5414E4231F7CA10B0007A0D9 /* RightLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,8 +28,8 @@
 		5414E4111F7BFA060007A0D9 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5414E4151F7BFA060007A0D9 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		5414E4161F7BFA060007A0D9 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		5414E41F1F7C9EBA0007A0D9 /* RightFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RightFlowLayout.h; path = ../../RightFlowLayout.h; sourceTree = "<group>"; };
-		5414E4201F7C9EBA0007A0D9 /* RightFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RightFlowLayout.m; path = ../../RightFlowLayout.m; sourceTree = "<group>"; };
+		5414E4221F7CA10B0007A0D9 /* RightLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RightLayout.h; path = ../../RightLayout.h; sourceTree = "<group>"; };
+		5414E4231F7CA10B0007A0D9 /* RightLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RightLayout.m; path = ../../RightLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,8 +62,8 @@
 		5414E4081F7BFA060007A0D9 /* RightLayout */ = {
 			isa = PBXGroup;
 			children = (
-				5414E41F1F7C9EBA0007A0D9 /* RightFlowLayout.h */,
-				5414E4201F7C9EBA0007A0D9 /* RightFlowLayout.m */,
+				5414E4221F7CA10B0007A0D9 /* RightLayout.h */,
+				5414E4231F7CA10B0007A0D9 /* RightLayout.m */,
 				5414E4091F7BFA060007A0D9 /* AppDelegate.h */,
 				5414E40A1F7BFA060007A0D9 /* AppDelegate.m */,
 				5414E40B1F7BFA060007A0D9 /* Assets.xcassets */,
@@ -149,7 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5414E4211F7C9EBA0007A0D9 /* RightFlowLayout.m in Sources */,
+				5414E4241F7CA10B0007A0D9 /* RightLayout.m in Sources */,
 				5414E41C1F7BFA060007A0D9 /* main.m in Sources */,
 				5414E41E1F7BFA060007A0D9 /* ViewController.m in Sources */,
 				5414E4171F7BFA060007A0D9 /* AppDelegate.m in Sources */,

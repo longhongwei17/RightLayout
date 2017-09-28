@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 // 从左边合适的位置 尽量铺满右边
-@interface RightFlowLayout : UICollectionViewFlowLayout
+@interface RightLayout : UICollectionViewFlowLayout
 
 + (instancetype)flowLayoutWithItemSize:(CGSize)itemSize
                           sectionInset:(UIEdgeInsets)sectionInset

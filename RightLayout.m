@@ -6,10 +6,10 @@
 //  Copyright © 2017年 hongweilong. All rights reserved.
 //
 
-#import "RightFlowLayout.h"
+#import "RightLayout.h"
 
 #define MainSize [UIScreen mainScreen].bounds.size
-@interface RightFlowLayout()
+@interface RightLayout()
 
 @property (nonatomic, strong) NSMutableArray<UICollectionViewLayoutAttributes *> *attributesList;
 
@@ -17,13 +17,13 @@
 
 @end
 
-@implementation RightFlowLayout
+@implementation RightLayout
 
 + (instancetype)flowLayoutWithItemSize:(CGSize)itemSize
                           sectionInset:(UIEdgeInsets)sectionInset
               minimumInterItemSpaceing:(CGFloat)minimumInterItemSpaceing
 {
-    RightFlowLayout *layout = [[RightFlowLayout alloc] init];
+    RightLayout *layout = [[RightLayout alloc] init];
     layout.itemSize = itemSize;
     layout.sectionInset = sectionInset;
     layout.minimumInteritemSpacing = minimumInterItemSpaceing;

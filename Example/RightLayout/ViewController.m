@@ -23,7 +23,7 @@ static NSString * const cellIdentifier = @"cellIdentifier";
 {
     if (!_dataList) {
         _dataList = @[].mutableCopy;
-        for (NSInteger index = 0; index < 6; index ++) {
+        for (NSInteger index = 0; index < 3; index ++) {
             [_dataList addObject:@(index)];
         }
     }
