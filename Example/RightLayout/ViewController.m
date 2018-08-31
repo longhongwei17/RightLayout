@@ -35,6 +35,8 @@ static NSString * const cellIdentifier = @"cellIdentifier";
     [super viewDidLoad];
     
     [self initUI];
+    
+    NSLog(@"111");
 }
 
 - (void)initUI
