@@ -35,8 +35,6 @@ static NSString * const cellIdentifier = @"cellIdentifier";
     [super viewDidLoad];
     
     [self initUI];
-    
-    NSLog(@"111");
 }
 
 - (void)initUI
@@ -65,8 +63,6 @@ static NSString * const cellIdentifier = @"cellIdentifier";
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath
 {
     [collectionView deselectItemAtIndexPath:indexPath animated:YES];
-    
-    NSLog(@"item===%ld",(long)indexPath.item);
 }
 
 - (void)didReceiveMemoryWarning
