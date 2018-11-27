@@ -65,8 +65,6 @@ static NSString * const cellIdentifier = @"cellIdentifier";
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath
 {
     [collectionView deselectItemAtIndexPath:indexPath animated:YES];
-    
-    NSLog(@"item===%ld",(long)indexPath.item);
 }
 
 - (void)didReceiveMemoryWarning
